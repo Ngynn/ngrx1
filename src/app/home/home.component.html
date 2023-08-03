@@ -1,0 +1,8 @@
+<div class="gallery">
+    <div class="card" *ngFor="let cat of catList">
+    <img src="{{cat.url}}" alt="">
+    <div class="description">
+      <h1>Cat</h1>
+      <p> {{cat.fact}} </p>
+    </div>
+    </div>  
